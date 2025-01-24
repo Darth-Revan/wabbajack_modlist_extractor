@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wabbajack-modlist-extractor"
+version = "0.1.0"
+description = "Small script to extract mod URLs from a Wabbajack modlist"
+authors = ["Kevin <18002263+Darth-Revan@users.noreply.github.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.3.3"
+mypy = "^1.14.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+line_length = 120
